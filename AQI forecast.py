@@ -2,13 +2,13 @@ import openai
 import requests
 
 # Set your OpenAI API key
-api_key = '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'
+api_key = ''
 
 # Initialize the OpenAI API client
 openai.api_key = api_key
 
 # Define your API token
-api_token = "710724441a3378dde2f21d811203c138a3b1208b"
+api_token = ""
 avg_pm25_list = []  # Initialize a list to store avg_pm25 values
 
 while True:
